@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sigin.css">
+    <title>sig in</title>
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        *{
+   margin: 0;
+   padding: 0;
+}
+.main{
+   display: flex;
+   justify-content: end;
+   text-decoration: none;
+   gap: 30px;
+   padding: 20px;
+}
+.main a{
+   text-decoration: none;
+   color:wheat;
+   font-family: cursive;
+   font-weight: 700;
+   font-size: 20px;
+}
+.y{
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    background-color: rgb(10, 33, 34);
+    justify-content: end;
+    gap: 50px;
+    font-family: cursive;
+    padding-top: 40px;
+}
+    </style>
+    
+  </head>
+  <body class="bg">
+
+    <header class="bg">
+        <div>
+            <div>
+                <a href="index.html"><img style="width: 5rem; position: absolute;" src="./WhatsApp Image 2023-10-15 at 09.16.54_19791f92.jpg" alt=""></a>
+              </div>
+          <div class="main">
+              <a href="issue.html">Complaint</a></li>
+              <a href="">Work</a></li>
+              <a href="jobform.html">careers</a></li>
+              <a href=""></a></li>
+          </div>
+        </div>
+      </header>
+  <div class="signup-form">
+    <form action="index.html" >
+		<h2 style="color: rgb(84, 245, 111);">Sign Up</h2>
+		<p style="color: rgb(141, 231, 156);"> create  account!</p>
+		<hr>
+        <div class="form-group">
+			<div class="row">
+				<div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"></div>
+				<div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+			</div>        	
+        </div>
+        <br>
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="Email" required="required" id="email">
+            <label for="error" id="mess1"></label>
+        </div>
+        
+        <div class="form-group">
+            <input type="text" class="form-control" name="PhoneNumber" placeholder="Phone number" required="required" id="phh">
+            <label for="error2" id="mess2"></label>
+        </div>
+        
+		<div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password" required="required" onkeyup="isGood(this.value);validate3()" id="pv"><input id="check" type="checkbox" onclick="myFunction()">
+            <small class="help-block" id="password-text"></small>
+            <label for="error2" id="mess3"></label>
+        </div>
+        
+		<div class="form-group">
+            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required" id="pv2" onkeyup="validate4()">
+            <label for="error" id="mess4"></label>
+        </div>
+               
+        <div class="form-group">
+			<label class="form-check-label" style="color: rgb(159, 228, 171);"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+		</div>
+		<div class="form-group">
+             <button type="submit" class="btn btn-primary btn-lg" ><a href="index.html" style="color: white; text-decoration: none;" >Back</a></button>
+             <button type="submit" class="btn btn-primary btn-lg" style="margin-left: 49px;" onclick="return validate();">Sign Up</button>
+        </div>
+    </form>
+	<div class="hint-text" style="color: rgb(115, 70, 219);">Already have an account? <a href="login.html">Login here</a></div>
+</div>
+<footer> 
+    <div class="y">
+      <div>
+          <h3>Explore</h3>
+          <h4>Service</h4>
+          <h4>Pakagae & movers</h4>
+          <h4>Electrical work</h4>
+          <h4>Plumping</h4>
+      </div>
+      <div>
+          <h3>About Us</h3>
+          <h4>Service</h4>
+          <h4>Pakagae & movers</h4>
+          <h4>Electrical work</h4>
+          <h4>Plumping</h4>
+      </div>
+      <!-- <div >
+          <h3>Explore</h3>
+          <h4>Service</h4>
+          <h4>Pakagae & movers</h4>
+          <h4>Electrical work</h4>
+          <h4>Plumping</h4>
+      </div> -->
+    </div>
+  </footer> 
+
+
+  
+     
+  </body>
+</html>

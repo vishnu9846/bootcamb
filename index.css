@@ -1,0 +1,113 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    scroll-behavior: smooth;
+ }
+ .main{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    gap: 30px;
+    padding: 20px;
+}
+.main a{
+    text-decoration: none;
+    color: wheat;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 20px;
+}
+.bg{
+    background-color: hsl(220, 85%, 64%);
+}
+.bg{
+    background-color: rgb(28, 174, 180);
+}
+.sign{
+    display: flex;
+}
+#up{
+    display: flex;
+    font-size: 25px;
+    font-family: cursive;
+}
+label{
+    font-size: 20px;
+}
+input{
+    width: 268px;
+    border-radius: 6px;
+    padding: 10px;
+}
+button{
+    width: 166px;
+    padding: 10px;
+    background-color: navajowhite;
+    margin-left: 60px;
+}
+#M{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.main2{
+    width: 30rem;
+    padding: 20px;
+    margin-top: 60px;
+}
+.main3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10rem;
+    background-color: rgb(172, 172, 179);
+    padding: 30px;
+    height: 28rem;
+    border-radius: 10px;
+    z-index: 99999;
+    box-shadow: 0 0 20px;
+}
+.xx{
+    font-size: 52px;
+    font-weight: 800;
+    font-family: cursive;
+    color: wheat;
+}
+.img{
+    width: 5rem;
+}
+.img4{
+    background-image: url(./WhatsApp\ Image\ 2023-10-15\ at\ 09.32.48_b21dbbe3.jpg);
+}
+.y{
+    display: flex;
+    height: 20rem;
+    width: 100%;
+    background-color: cadetblue;
+    justify-content: end;
+    gap: 50px;
+    font-family: cursive;
+    padding-top: 40px;
+}
+.maincard{
+    margin:50px 50px 50px 50px;
+    
+
+}
+.card{
+    float: left;
+    
+}
+kh{
+    width: 18rem;
+    border-right-style: groove;
+    border-color: red;
+    border-width: 11px;
+
+}
+.kd{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    gap: 65px;
+}
